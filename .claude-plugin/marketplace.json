@@ -1,0 +1,31 @@
+{
+  "name": "brain",
+  "owner": {
+    "name": "Mordechai Potash",
+    "url": "https://github.com/mordechaipotash"
+  },
+  "metadata": {
+    "description": "Epistemic discipline for Claude Code: verification, reconnaissance-before-build, and a deterministic build gate. From the maker of brain-mcp.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "prove-it",
+      "source": "./plugins/prove-it",
+      "description": "Verification discipline: every number carries its provenance in the same sentence; a test that cannot fail proves nothing; unknown is not healthy.",
+      "strict": false
+    },
+    {
+      "name": "preflight",
+      "source": "./plugins/preflight",
+      "description": "Reconnaissance before implementation: map everything that exists, produce a build spec, and STOP. Zero mutations until you say go.",
+      "strict": false
+    },
+    {
+      "name": "build-gate",
+      "source": "./plugins/build-gate",
+      "description": "A PreToolUse hook that makes 'think first; build on the yes' deterministic: writes, deploys, and mutating SQL pause for one confirmation unless your last message carried a clear go.",
+      "strict": false
+    }
+  ]
+}

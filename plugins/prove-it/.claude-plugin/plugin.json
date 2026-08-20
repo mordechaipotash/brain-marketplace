@@ -1,0 +1,9 @@
+{
+  "name": "prove-it",
+  "version": "1.0.0",
+  "description": "Verification discipline for Claude Code: measured claims only, provenance inline, falsifiable checks, honest retractions.",
+  "author": { "name": "Mordechai Potash", "url": "https://github.com/mordechaipotash" },
+  "repository": "https://github.com/mordechaipotash/brain-marketplace",
+  "license": "MIT",
+  "keywords": ["verification", "epistemics", "provenance", "discipline"]
+}

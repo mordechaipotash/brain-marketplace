@@ -1,0 +1,9 @@
+{
+  "name": "preflight",
+  "version": "1.0.0",
+  "description": "Reconnaissance before implementation: map files, schemas, endpoints, crons, git state and prior decisions, produce a build spec, and STOP — zero mutations until the user says go.",
+  "author": { "name": "Mordechai Potash", "url": "https://github.com/mordechaipotash" },
+  "repository": "https://github.com/mordechaipotash/brain-marketplace",
+  "license": "MIT",
+  "keywords": ["planning", "recon", "spec", "discipline", "read-only"]
+}

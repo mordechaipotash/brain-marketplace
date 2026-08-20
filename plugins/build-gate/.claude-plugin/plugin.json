@@ -1,0 +1,9 @@
+{
+  "name": "build-gate",
+  "version": "1.0.0",
+  "description": "PreToolUse hook that makes 'think first; build on the yes' deterministic: file writes, deploys, sends, and mutating SQL pause for one confirmation unless your last message carried a clear go.",
+  "author": { "name": "Mordechai Potash", "url": "https://github.com/mordechaipotash" },
+  "repository": "https://github.com/mordechaipotash/brain-marketplace",
+  "license": "MIT",
+  "keywords": ["hook", "safety", "gate", "discipline", "PreToolUse"]
+}
