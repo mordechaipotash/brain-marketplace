@@ -10,6 +10,12 @@
   },
   "plugins": [
     {
+      "name": "brain",
+      "source": "./plugins/brain",
+      "description": "THE RECORDER \u2014 capture your Claude Code sessions at source (Stop/SessionEnd/PreCompact hooks), keep the bytes forever, query them through 7 cited-or-abstain MCP tools.",
+      "strict": false
+    },
+    {
       "name": "prove-it",
       "source": "./plugins/prove-it",
       "description": "Verification discipline: every number carries its provenance in the same sentence; a test that cannot fail proves nothing; unknown is not healthy.",
